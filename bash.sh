@@ -2,6 +2,16 @@
 # Mosaic of M17, K band, 1.5 deg x 1.5 deg
 # Bruce Berriman, February, 2016
 
+## commands to run before bash script:                     	##
+															##
+#git clone https://github.com/Backslash95/montageExample   	##
+#cd montageExample											##
+#./bash.sh													##
+
+sudo apt-get install --assume-yes montage 
+sudo apt-get install --assume-yes imagemagick
+sudo apt-get install --assume-yes graphicsmagick-imagemagick-compat
+
 echo "create directories to hold processed images"
 mkdir Kprojdir diffdir corrdir
 
